@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JS</title>
+</head>
+<body>
+    <script>
+        // if else
+
+    let pelanggan = "Budi doremi";
+    let total_belanja = "125000";
+    let keterangan = "";
+
+    if(total_belanja > 100000){
+        keterangan = "selamat anda mendapatkan hadiah";
+    } else{
+        "terimakasih sudah bebelanja";
+    }
+    
+    document.write("Nama Pelanggan : " + pelanggan);
+    document.write("</br>" + "Total Belanja : Rp. " + total_belanja);
+    document.write("</br>" + "Keterangan : " + keterangan);
+    document.write("</br>" + "</br>" + "* Jika Belanja Lebih dari Rp. 100.000 akan mendapatkan hadiah");
+
+
+    document.write('<br> <br> <hr>')
+    // nasted if
+
+    let nama_siswa = "Budi doremi";
+    let nilai = 75;
+    let grade = ""
+
+    if (nilai > 85 && nilai <= 100) grade = "A";
+    else if (nilai > 70 && nilai <= 85) grade = "B";
+    else if (nilai > 55 && nilai <= 70) grade = "C";
+    else if (nilai > 30 && nilai <= 55) grade = "D";
+    else if (nilai >= 0 && nilai <= 30) grade = "E";
+
+    document.write("Nama Siswa = " + nama_siswa + "<br>" + "Dengan Nilai = " + nilai + "<br>" + "Grade = " + grade);
+
+
+    </script>
+</body>
+</html>
